@@ -1,0 +1,122 @@
+header {
+    font-size: 30px;
+    text-align: center;
+    border: 5px solid whitesmoke;
+    background-color: steelblue;
+}
+
+header p {
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+nav a {
+    color: black;
+    padding: 60px 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav a:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.image-section {
+    display: flex;
+}
+
+
+.img1 {
+    border: 9px steelblue solid;
+    display: block;
+    margin: auto;
+}
+
+.img2 {
+    border: 9px steelblue solid;
+    display: flex;
+    margin: auto;
+}
+
+.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#body {
+    background-color: steelblue;
+    border-radius: 4
+}
+
+#body2 {
+    background-color: steelblue;
+}
+
+
+.contact {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+}
+
+div p {
+    line-height: 2;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .image-section {
+        display: none;
+    }
+
+    .wrap {
+        word-wrap: normal;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .image-section {
+        display: none;
+    }
+
+    #body {
+        background-color: gray
+    }
+
+    ;
+}
+
+@media only screen and (max-width: 992px) {
+    #pic-d {
+        display: none;
+    }
+
+    h1 {
+        color: white;
+    }
+}
