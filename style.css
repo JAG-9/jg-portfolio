@@ -76,6 +76,13 @@ nav a:hover {
     line-height: 2;
 }
 
+.comingsoon {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+}
+
 div p {
     line-height: 2;
 }
